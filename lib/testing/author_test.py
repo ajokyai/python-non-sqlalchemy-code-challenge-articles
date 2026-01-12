@@ -1,8 +1,9 @@
 import pytest
+# author_test.py
+from lib.classes.many_to_many import Article
+from lib.author import Author
+from lib.magazine import Magazine
 
-from lib.classes.article import Article
-from lib.classes.author import Author
-from lib.classes.magazine import Magazine
 
 
 class TestAuthor:

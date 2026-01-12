@@ -1,11 +1,9 @@
 
 
 # article_test.py
-import pytest
-from lib.classes.article import Article
-from lib.classes.author import Author
-from lib.classes.magazine import Magazine
-  # Magazine is here
+from lib.classes.many_to_many import Article   # Article is now here
+from lib.author import Author
+from lib.magazine import Magazine
 
 
 class TestArticle:
